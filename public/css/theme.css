@@ -1,0 +1,149 @@
+body{
+    font-family: "Roboto";
+    background-color:#ebebeb;
+}
+
+.color-main{
+    color:#666;
+}
+
+.bg-main{
+    background-color: #eac926;
+    padding: 16px;
+}
+
+.bg-blue{
+    background-color: #03264c;
+}
+
+.bg-light-blue{
+    background-color: #1259c3;
+}
+
+.bg-light-gay{
+    background-color: #ebebeb;
+}
+
+.bg-green{
+    background-color: #39b54a;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.width-50{
+    width: 50%;
+    padding: 6px;
+    
+}
+
+.width-100{
+    width: 100%;
+}
+
+.icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#1259c3;
+
+    
+}
+
+.copy{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.icon-delivery{
+    color:#39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top:-15px;
+
+    transition: transform 2s;
+}
+
+.perfilUsuario{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.fechaNacimiento{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.foto{
+    font-weight: bold;
+}
+.radio-list{
+    display: flex;
+    justify-content: space-around;
+}
+ .checkbox-list{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 8px;
+ }
+
+ .checkbox-input{
+     margin-left: 16px;
+     margin-right: 16px;
+ }
+
+ .enviar{
+     
+     width: 100%;
+     background-color: #1259c3;
+     color:white;
+     margin-bottom: 8px;
+     border:none;
+     border-radius: 6px;
+     padding: 8px;
+     display: block;
+ }
+
+ .cancelar{
+     width: 100%;
+     background-color: #666;
+     color:black;
+     border:none;
+     border-radius: 6px;
+     padding: 8px;
+}
+
+.send-button:hover{
+    background-color: #0022AA;
+}
+
+.search-form{
+    width: 50%;
+    padding: 6px;
+    position: relative;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.search-button{
+    position: absolute;
+    right: 10px;
+    padding: 8px;
+    background-color: white;
+}
+
